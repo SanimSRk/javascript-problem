@@ -35,7 +35,7 @@ function checkName(name) {
 */
 
 //thride problem solving state
-
+/*
 function deleteInvalids(array) {
   if (!Array.isArray(array)) {
     return 'Invalid Array';
@@ -50,5 +50,4 @@ function deleteInvalids(array) {
   }
   return number;
 }
-
-console.log(deleteInvalids([1, 2, 3]));
+*/

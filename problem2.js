@@ -9,5 +9,3 @@ function password(obj) {
   const value = nems[0].toUpperCase() + nems.slice(1).toLowerCase();
   return value;
 }
-
-console.log(password({ name: 'maisha', birthYear: 2002 }));

@@ -1,5 +1,5 @@
 //frist problem solving now started
-/*
+
 function calculateMoney(ticketSale) {
   if (ticketSale < 0) {
     return '“Invalid Number”';
@@ -14,11 +14,9 @@ function calculateMoney(ticketSale) {
   const tottelTcketPrice = ticketRemining - loseMoney;
   return tottelTcketPrice;
 }
-*/
 
 //second problem in javascript stat now
 
-/*
 function checkName(name) {
   if (typeof name !== 'string') {
     return 'invalid';
@@ -32,10 +30,9 @@ function checkName(name) {
       return 'Bad Name';
     }
 }
-*/
 
 //thride problem solving state
-/*
+
 function deleteInvalids(array) {
   if (!Array.isArray(array)) {
     return 'Invalid Array';
@@ -50,4 +47,5 @@ function deleteInvalids(array) {
   }
   return number;
 }
-*/
+
+console.log(deleteInvalids([1, 2, -3]));

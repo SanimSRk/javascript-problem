@@ -1,5 +1,5 @@
 function monthlySavings(arr, livingCost) {
-  if (!Array.isArray(arr) && livingCost !== 'Number') {
+  if (!Array.isArray(arr) || typeof livingCost !== 'Number') {
     return 'invalid input';
   }
   let sum = 0;
@@ -18,4 +18,4 @@ function monthlySavings(arr, livingCost) {
 
   return saving;
 }
-console.log(monthlySavings([1000, 2000, 3000], 5400));
+console.log(monthlySavings([1000, 2000, 3000], 'Number'));
